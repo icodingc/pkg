@@ -1,0 +1,7 @@
+- {{query (or [[emoji]] (LATER))}}
+  query-table:: true
+- query-table:: true
+- #工具
+- https://logseq.github.io/#/page/queries
+- https://logseq.github.io/#/page/advanced%20queries
+	- pending吧，现在用处不大。

@@ -1,0 +1,18 @@
+/* 白色主题 */
+.white-theme a.tag[data-ref="召回"] {
+  color: rgb(245, 239, 240);
+  background: red;
+  text-decoration-color: red;
+}
+.white-theme a.tag[data-ref="中国哲学"] {
+  color: #f3f3f7;
+  background: green;
+  text-decoration-color: green;
+}
+
+/* 黑色主题 */
+.dark-theme a.tag[data-ref="其他颜色的tag"] {
+  color: blue;
+  background: green;
+  text-decoration-color: green;
+}
