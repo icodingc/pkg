@@ -1,0 +1,98 @@
+/* 白色主题 */
+.white-theme a.tag[data-ref] {
+  color: white;
+  background: #F012BE;
+  /* text-decoration-color: red; */
+}
+
+.white-theme a.tag[data-ref="召回"] {
+  color: white;
+  background: #85144b;
+  /* text-decoration-color: red; */
+}
+.white-theme a.tag[data-ref="中国哲学"] {
+  color: white;
+  background: #0074D9;
+  /* text-decoration-color: green; */
+}
+.white-theme a.tag[data-ref="工具"] {
+  color: white;
+  background: #001f3f;
+  /* text-decoration-color: green; */
+}
+/*highlight color*/
+/* https://cn.logseq.com/t/topic/2841/3 */
+span[data-ref="#red"],
+span[data-ref="#green"],
+span[data-ref="#blue"],
+span[data-ref="#navy"],
+span[data-ref="#redf"],
+span[data-ref="#greef"],
+span[data-ref="#bluef"] {
+  display: none;
+}
+span[data-ref="#red"] + mark {
+  background: #ffc7c7;
+}
+span[data-ref="#green"] + mark {
+  background: #ccffc1;
+}
+span[data-ref="#blue"] + mark {
+  background: #abdfff;
+}
+span[data-ref="#navy"] + mark {
+  color: white;
+  background: #001f3f;
+}
+span[data-ref="#redf"] + mark {
+  color: #ffc7c7;
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
+span[data-ref="#greef"] + mark {
+  color: #ccffc1;
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
+span[data-ref="#bluef"] + mark {
+  color: #abdfff;
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
+/**toc plugin**/
+.tocBoard {
+      display: flex;
+      flex-direction: column;
+      padding: 1em;
+      border: 1px dashed #C0C0C0;
+}
+.toc {
+      margin-top: 0 !important;
+}
+
+    .headerOne {
+      border-top: 1px solid #C0C0C0;
+      border-bottom: 1px solid #C0C0C0;
+      margin-top: 3px;
+      padding: 0 1em;
+    }
+
+    .headerTwo {
+      margin-top: 3px;
+      display: list-item;
+      list-style-type: disc;
+      list-style-position: inside;
+      padding: 0 1em;
+    }
+
+    .headerOne:hover, .headerTwo:hover {
+      cursor: pointer;
+      border: 1px dashed red;
+    }
+
+    .ti-arrow-bar-right:hover {
+      cursor: pointer;
+    }
