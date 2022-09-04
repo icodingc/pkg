@@ -1,0 +1,35 @@
+title:: 工作心得
+
+- [AI算法工程师的自我修养](https://icodingc.github.io/blog/2021/02/17/AI-Algorithm-Engineer/)
+-
+- ## 个人
+	- [[什么是好工作]]
+	- [[之前脉脉看到的]]
+	- [[关于个人规划]]
+	- [[复盘]]
+	- [[OneOne]]
+-
+- ## 优秀工作总结
+	- [李沐-工作五年反思](https://zhuanlan.zhihu.com/p/374777591)
+	- [田渊栋-博士五年之后五年的总结](https://zhuanlan.zhihu.com/p/45703402)
+	- [[王仲远-如何克服35岁危机]]
+	- [[findyi-工作的一些建议]]
+	- ((61d7bedd-4748-4682-b405-254b393c412a)) 🪐
+	-
+- ## 关于管理
+	- [[团队管理]] #管理
+	- [[关于带人]] #管理
+	- [技术管理进阶——Leader的模型、手段及思维 ](https://www.cnblogs.com/yexiaochai/p/15659278.html)
+		- 战略和战术--还是有原则的，不要被动，要主动获取
+		- 信息处理
+		- 表达能力
+		- 持之以恒
+	- [[林彪：如何当好师长]]
+	- [[从技术、管理到业务]]
+	-
+- > @知乎收藏不少
+  关于职业、管理、晋升的文章。
+-
+- 参考：
+- [1] https://mp.weixin.qq.com/s/PDLs1F0sPgirbefvpnEfQg
+- [2] https://mp.weixin.qq.com/s/Da3ahKwskENNGxMCG4HcYQ

@@ -1,0 +1,29 @@
+/* 白色主题 */
+.white-theme a.tag[data-ref] {
+  color: white;
+  background: #F012BE;
+  /* text-decoration-color: red; */
+}
+
+.white-theme a.tag[data-ref="召回"] {
+  color: white;
+  background: #85144b;
+  /* text-decoration-color: red; */
+}
+.white-theme a.tag[data-ref="中国哲学"] {
+  color: white;
+  background: #0074D9;
+  /* text-decoration-color: green; */
+}
+.white-theme a.tag[data-ref="工具"] {
+  color: white;
+  background: #001f3f;
+  /* text-decoration-color: green; */
+}
+
+/* 黑色主题 */
+.dark-theme a.tag[data-ref] {
+  color: blue;
+  background: #7FDBFF;
+  /* text-decoration-color: green; */
+}
