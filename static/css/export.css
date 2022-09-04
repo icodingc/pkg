@@ -1,0 +1,224 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;700&family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");*/
+/*https://images.unsplash.com/photo-1654342922532-cf1f7fbff8b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2128&q=80    */
+/*:root {
+        --bg-url: url(https://images.unsplash.com/photo-1654342922532-cf1f7fbff8b2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2128&q=80);
+    }*/
+/*:root {
+  --background: #282828;
+  --light-background: #3c3836;
+  --lighter-background: #504945;
+  --dark-background: #3c3836;
+  --darker-background: #1d2021;
+  --foreground: #ebdbb2;
+  --current-line: #504954;
+  --comment: #928374;
+  --white: var(--foreground);
+  --white-hover: #f8f8f280;
+  --red: #cc241d;
+  --blue: #458588;
+  --blue-hover: #83a598;
+  --orange: #d65d0e;
+  --orange-hover: #fe8019;
+  --yellow: #d79921;
+  --green: #98971a;
+  --purple: #b16286;
+  --purple-hover: #d3869b;
+  --cyan: #689d6a;
+  --cyan-hover: #8ec07c;
+  --pink: #ff79c6;
+  --pink-hover: #ff79c680;
+
+  --ls-tag-text-opacity: 0.8;
+  --ls-tag-text-hover-opacity: 0.8;
+  --ls-page-text-size: 16px;
+  --ls-page-title-size: 36px;
+  --ls-font-family: "Fira Code";
+  --ls-font-weight: 300;
+  --ls-font-letter-spacing: 0.002em;
+  --ls-font-line-height: 1.5;
+
+  --ls-border-radius-low: 3px;
+  --ls-border-radius-medium: 6px;
+}
+*/
+/* Stretches content for visibility */
+.cp__sidebar-main-content {
+    max-width: 1400px !important;
+}
+/**/
+/*==== logseq-bars v20210304 start ====== */
+/* resets tag style 进度条 */
+a[data-ref*=bar-].tag {
+    font-size: 0;
+    padding: 0;
+    border: none;
+    margin: 0;
+    height: 6px;
+    border-radius: 4px;
+    display: inline-block;
+}
+a[data-ref*=bar].tag:before {
+    content: "";
+    height: 6px;
+    display: inline-block;
+    border-radius: 4px;
+    background-image: linear-gradient(to right, #048cb2 20px, #00ff62 40px, #fffc5f 60px, #ffb922 80px, red 100px);
+}
+    a[data-ref*=flatbar].tag:before {background:red;}
+    a[data-ref*=bar-00].tag:before {width: 1px;}
+    a[data-ref*=bar-10].tag:before {width: 10px;}
+    a[data-ref*=bar-20].tag:before {width: 20px;}
+    a[data-ref*=bar-30].tag:before {width: 30px;}
+    a[data-ref*=bar-40].tag:before {width: 40px;}
+    a[data-ref*=bar-50].tag:before {width: 50px;}        
+    a[data-ref*=bar-60].tag:before {width: 60px;}
+    a[data-ref*=bar-70].tag:before {width: 70px;}
+    a[data-ref*=bar-80].tag:before {width: 80px;}
+	a[data-ref*=bar-90].tag:before {width: 90px;}
+	a[data-ref*=bar-100].tag:before {width: 100px;}
+/* https://gist.github.com/tallguyjenks/6afc75e52a3d52d475b9df9dafdecfd2 */
+/* Custom Tag emoji's */
+/* STAR */
+a.tag[data-ref="star" i]::before {
+    content: "⭐";
+    visibility: visible;
+    border-radius: 2px;
+    padding: 2px;
+    background: #458588;
+    box-shadow: 0 0 4px #458588;
+}
+
+a.tag[data-ref="star" i] {
+    visibility: hidden;
+    width: 24px;
+    white-space: nowrap;
+}
+/* STAR */
+a.tag[data-ref="quote" i]::before {
+    content: "💎";
+    visibility: visible;
+    border-radius: 2px;
+    padding: 2px;
+    background: #458588;
+    box-shadow: 0 0 4px #458588;
+}
+
+a.tag[data-ref="quote" i] {
+    visibility: hidden;
+    width: 24px;
+    white-space: nowrap;
+}
+/* IDEA */
+a.tag[data-ref="idea" i]::before {
+    content: "💡";
+    visibility: visible;
+    border-radius: 2px;
+    padding: 2px;
+    background: #458588;
+    box-shadow: 0 0 4px #83a598;
+}
+
+a.tag[data-ref="idea" i] {
+    visibility: hidden;
+    width: 24px;
+    white-space: nowrap;
+}
+
+/* 白色主题 */
+.white-theme a.tag[data-ref] {
+  color: #001f3f; /*white*/
+  background: #F012BE; /**/
+  /* text-decoration-color: red; */
+}
+
+/*.white-theme a.tag[data-ref="召回"] {
+  color: white;
+  background: #85144b;
+  /* text-decoration-color: red; */
+}*/
+/*.white-theme a.tag[data-ref="中国哲学"] {
+  color: white;
+  background: #0074D9;
+  /* text-decoration-color: green; */
+}*/
+/*.white-theme a.tag[data-ref="工具"] {
+  color: white;
+  background: #001f3f;
+  /* text-decoration-color: green; */
+}*/
+/*highlight color*/
+/* https://cn.logseq.com/t/topic/2841/3 */
+span[data-ref="#red"],
+span[data-ref="#green"],
+span[data-ref="#blue"],
+span[data-ref="#navy"],
+span[data-ref="#redf"],
+span[data-ref="#greef"],
+span[data-ref="#bluef"] {
+  display: none;
+}
+span[data-ref="#red"] + mark {
+  background: #ffc7c7;
+}
+span[data-ref="#green"] + mark {
+  background: #ccffc1;
+}
+span[data-ref="#blue"] + mark {
+  background: #abdfff;
+}
+span[data-ref="#navy"] + mark {
+  color: white;
+  background: #001f3f;
+}
+span[data-ref="#redf"] + mark {
+  color: #ffc7c7;
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
+span[data-ref="#greef"] + mark {
+  color: #ccffc1;
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
+span[data-ref="#bluef"] + mark {
+  color: #abdfff;
+  background: none;
+  padding: 0;
+  border-radius: 0;
+}
+/**toc plugin**/
+.tocBoard {
+      display: flex;
+      flex-direction: column;
+      padding: 1em;
+      border: 1px dashed #C0C0C0;
+}
+.toc {
+      margin-top: 0 !important;
+}
+
+    .headerOne {
+      border-top: 1px solid #C0C0C0;
+      border-bottom: 1px solid #C0C0C0;
+      margin-top: 3px;
+      padding: 0 1em;
+    }
+
+    .headerTwo {
+      margin-top: 3px;
+      display: list-item;
+      list-style-type: disc;
+      list-style-position: inside;
+      padding: 0 1em;
+    }
+
+    .headerOne:hover, .headerTwo:hover {
+      cursor: pointer;
+      border: 1px dashed red;
+    }
+
+    .ti-arrow-bar-right:hover {
+      cursor: pointer;
+    }
